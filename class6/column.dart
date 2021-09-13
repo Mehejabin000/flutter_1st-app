@@ -25,6 +25,8 @@ class Disgusting extends StatelessWidget {
             child: Column(children: [
               Text("Hulk",style:
                TextStyle (color: Colors.blue,
+               fontWeight: FontWeight.w700,
+               fontStyle: FontStyle.italic,
                fontSize: 20   
                ),
               ),
@@ -32,18 +34,21 @@ class Disgusting extends StatelessWidget {
                TextStyle (color: Colors.green,
                fontWeight: FontWeight.w700,
                fontStyle: FontStyle.italic,
-               fontSize: 25  
+               fontSize: 20  
                ),
                
            ),
            Text("Batman",style:
                TextStyle (color: Colors.purple,
-
+               fontWeight: FontWeight.w700,
+               fontStyle: FontStyle.italic,
                fontSize: 20   
                ),
            ),
             Text("Spiderman",style:
                TextStyle (color: Colors.red,
+               fontWeight: FontWeight.w700,
+               fontStyle: FontStyle.italic,
                fontSize: 20   
                ),
             ),
