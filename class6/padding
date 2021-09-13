@@ -20,10 +20,12 @@ class Disgusting extends StatelessWidget {
           title: Text("The Suicide Squad"),
         ),
         body: Container(
-          child: Center(
-            child: Column(children: [
-              Padding(
-                padding: const EdgeInsets.all(40.0),
+          child:
+              Column(crossAxisAlignment: CrossAxisAlignment.start, 
+              children: [
+            SizedBox(
+              child: Padding(
+                padding: EdgeInsets.all(200.0),
                 child: ElevatedButton(
                   onPressed: () {
                     print("Tamsha");
@@ -31,17 +33,17 @@ class Disgusting extends StatelessWidget {
                   child: (Text("Matha Gorom")),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: ElevatedButton(
-                  onPressed: () {
-                    print("Tamsha");
-                  },
-                  child: (Text("Matha Thanda")),
-                ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(40.0),
+              child: ElevatedButton(
+                onPressed: () {
+                  print("Tamsha");
+                },
+                child: (Text("Matha Thanda")),
               ),
-            ]),
-          ),
+            ),
+          ]),
         ),
       ),
     );
